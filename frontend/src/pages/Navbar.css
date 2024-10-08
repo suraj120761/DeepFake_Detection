@@ -1,0 +1,55 @@
+/* Navbar.css */
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar {
+  background-color: #000; /* Solid black background */
+  box-shadow: none;
+  z-index: 1000;
+  position: fixed; /* Fixed position to stay at the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #00bfff; /* Light blue color */
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #ff4500; /* Hover color: orange-red */
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00bfff; /* Light blue on hover */
+}
+
+.navbar-nav {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: 0;
+    justify-content: flex-end;
+  }
+}

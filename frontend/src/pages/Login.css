@@ -1,0 +1,112 @@
+/* Login.css */
+
+/* Centering the container */
+/* Specific to the login page background */
+.login-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 56px); /* Full height minus navbar height */
+    background-image: url('charan.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 56px; /* Padding to avoid navbar overlap */
+  }
+
+/* No changes to the navbar */
+.navbar {
+    background-color: #000; /* Keeping the solid black background */
+    box-shadow: none;
+    z-index: 1000;
+  }
+
+/* Login form styling */
+.login-wrapper {
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    padding: 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    width: 400px;
+    color: #ccc;
+  }
+
+  .login-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-wrapper i {
+    position: absolute;
+    left: 10px;
+    color: #333;
+}
+
+.input-wrapper input {
+    padding: 10px 40px; /* Space for the icons */
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent input */
+    transition: border-color 0.3s;
+}
+
+.input-wrapper input:focus {
+    border-color: #007bff;
+}
+
+/* Hover effects */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Link styling */
+span a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+span a:hover {
+    color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .login-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .login-wrapper {
+      width: 90%;
+    }
+  }

@@ -1,0 +1,94 @@
+/* Signup.css */
+
+/* Centering the container and applying the background image */
+.signup-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 56px); /* Full height minus navbar height */
+    background-image: url('charan.jpg'); /* Background for signup page */
+    background-size: cover;
+    background-position: center;
+    padding-top: 56px; /* Padding to avoid navbar overlap */
+  }
+  
+  /* Styling the signup form */
+  .signup-wrapper {
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    padding: 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    width: 400px;
+    text-align: center;
+    color: #fff; /* White text */
+  }
+  
+  .signup-wrapper h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .signup-wrapper {
+      width: 90%;
+    }
+  }
+  
+
+/* Styling the input fields */
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-wrapper i {
+    position: absolute;
+    left: 10px;
+    color: #fff;
+}
+
+.input-wrapper input {
+    padding: 10px 40px; /* Space for the icons */
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent input */
+    color: #000; /* Black text in input */
+    transition: border-color 0.3s;
+}
+
+.input-wrapper input:focus {
+    border-color: #00bfff;
+}
+
+/* Hover effects */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Link styling */
+span a {
+    color: #00bfff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+span a:hover {
+    color: #0056b3;
+}
+
+/* Responsive design */
+

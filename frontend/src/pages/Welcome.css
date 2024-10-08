@@ -1,0 +1,75 @@
+.welcome-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative; /* Ensures the heading and carousel can be layered */
+}
+
+.welcome-content {
+    text-align: center;
+    color: #fff; /* Ensure text is visible on the background */
+    padding: 20px; /* Add some padding for better spacing */
+    position: relative; /* Ensures buttons are correctly positioned */
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    /* Removed the hover effect to prevent highlight */
+}
+
+.welcome-carousel {
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width for the carousel */
+    margin: 0 auto; /* Center the carousel */
+    position: relative;
+    z-index: 1; /* Ensure the carousel is above the background */
+}
+
+.welcome-carousel .carousel-item {
+    height: 60vh; /* Adjust height as needed */
+}
+
+.welcome-carousel .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for captions */
+    border-radius: 5px;
+    padding: 20px; /* Adjust padding for better text spacing */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.welcome-carousel .carousel-caption h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.welcome-carousel .carousel-caption p {
+    font-size: 1.2rem;
+    line-height: 1.5; /* Improve readability with line-height */
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.ms-2 {
+    margin-left: 0.5rem;
+}
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust spacing between buttons */
+  }
+  

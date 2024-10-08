@@ -1,0 +1,32 @@
+.abstract-page {
+    background-color: #f8f9fa; /* Light background color */
+    min-height: 100vh;
+    position: relative; /* Required for positioning the logo */
+    padding: 0; /* Ensure no additional padding/margins */
+  }
+  
+  .logo-container {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 290px; /* Adjust as needed */
+  }
+  
+  .logo {
+    width: 60px; /* Set the desired width */
+    height: 60px; /* Set the desired height */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    
+  }
+  
+  .abstract-text {
+    font-size: 1rem;
+    line-height: 1.6; /* Improve readability with line-height */
+    text-align: justify; /* Justify text for a cleaner look */
+  }
+  
+  img {
+    max-width: 100%; /* Ensure the image is responsive */
+    border-radius: 18px; /* Optional: rounded corners for other images */
+  }
+  

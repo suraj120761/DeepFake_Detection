@@ -1,0 +1,26 @@
+/* AboutUs.css */
+
+.about-us-page {
+    background-color: #e0f7fa; /* Light background color */
+    min-height: 100vh;
+  }
+  
+  .team-member-card {
+    background-color: #ffffff; /* Card background color */
+    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-subtitle {
+    font-size: 1rem;
+  }
+  
+  .card-text {
+    font-size: 0.875rem;
+  }
+  
